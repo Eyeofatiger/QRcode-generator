@@ -1,0 +1,36 @@
+.container{
+    display: flex;
+    font: 17px Verdana;
+}
+
+.container>div{
+    border: 1px solid green;
+    padding: 10px;
+    background-color: honeydew;
+}
+
+.container>div input{
+    border: 2px solid grey;
+    width: 100%;
+}
+
+.divd, .divdc{
+    display: inline;
+    width: 20%;
+}
+
+#text{
+    width: 250px;
+    border: 1px solid tomato;
+    font-size: 10px;
+    overflow: visible;
+}
+
+#qrcode{
+    width: 100px;
+    height: 100px;
+    border: 1px solid grey;
+    margin: 25px;
+    padding: 10px;
+    background-color: #fff;
+}
